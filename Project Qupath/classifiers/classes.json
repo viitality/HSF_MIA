@@ -1,0 +1,16 @@
+{
+  "pathClasses": [
+    {
+      "name": "LC3",
+      "color": -65536
+    },
+    {
+      "name": "DAPI",
+      "color": -16776961
+    },
+    {
+      "name": "Ignore*",
+      "color": -4934476
+    }
+  ]
+}

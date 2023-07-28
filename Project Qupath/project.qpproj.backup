@@ -1,0 +1,1406 @@
+{
+  "version": "0.4.3",
+  "createTimestamp": 1687953493008,
+  "modifyTimestamp": 1687953493008,
+  "uri": "file:/Users/mohabenel/Desktop/Project%20Qupath/project.qpproj",
+  "lastID": 27,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/60RD-PAS.czi",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "60RD-PAS.czi - Scene #1",
+          "width": 27569,
+          "height": 28179,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 27569,
+              "height": 28179
+            },
+            {
+              "downsample": 2.0,
+              "width": 13784,
+              "height": 14089
+            },
+            {
+              "downsample": 4.0,
+              "width": 6892,
+              "height": 7044
+            },
+            {
+              "downsample": 8.0,
+              "width": 3446,
+              "height": 3522
+            },
+            {
+              "downsample": 16.0,
+              "width": 1723,
+              "height": 1761
+            },
+            {
+              "downsample": 32.0,
+              "width": 861,
+              "height": 880
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 1,
+      "randomizedName": "8d920eab-2fea-40e0-87cb-39c82e9a324f",
+      "imageName": "60RD-PAS.czi",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/60RD-PAS.czi",
+        "args": [
+          "--series",
+          "1"
+        ],
+        "metadata": {
+          "name": "60RD-PAS.czi - Scene #2",
+          "width": 31852,
+          "height": 27084,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 31852,
+              "height": 27084
+            },
+            {
+              "downsample": 2.0,
+              "width": 15926,
+              "height": 13542
+            },
+            {
+              "downsample": 4.0,
+              "width": 7963,
+              "height": 6771
+            },
+            {
+              "downsample": 8.0,
+              "width": 3981,
+              "height": 3385
+            },
+            {
+              "downsample": 16.0,
+              "width": 1990,
+              "height": 1692
+            },
+            {
+              "downsample": 32.0,
+              "width": 995,
+              "height": 846
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 2,
+      "randomizedName": "3fe0bef9-2ce4-4b1d-8f32-f295f265f158",
+      "imageName": "60RD-PAS.czi - Scene #2",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230614_Philippe/Teno7-60RD-SVF.czi",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "Teno7-60RD-SVF.czi - Scene #1",
+          "width": 20510,
+          "height": 22366,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": false,
+          "pixelType": "UINT16",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 20510,
+              "height": 22366
+            },
+            {
+              "downsample": 2.0,
+              "width": 10255,
+              "height": 11183
+            },
+            {
+              "downsample": 4.0,
+              "width": 5127,
+              "height": 5591
+            },
+            {
+              "downsample": 8.0,
+              "width": 2563,
+              "height": 2795
+            },
+            {
+              "downsample": 16.0,
+              "width": 1281,
+              "height": 1397
+            },
+            {
+              "downsample": 32.0,
+              "width": 640,
+              "height": 698
+            }
+          ],
+          "channels": [
+            {
+              "name": "385",
+              "color": -16776961
+            },
+            {
+              "name": "475",
+              "color": -16711845
+            },
+            {
+              "name": "590",
+              "color": -63232
+            },
+            {
+              "name": "630",
+              "color": -6750004
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 3,
+      "randomizedName": "6c134977-9ecd-4e2f-a887-699143f62229",
+      "imageName": "Teno7-60RD-SVF.czi - Scene #1",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230614_Philippe/Teno7-60RD-SVF.czi",
+        "args": [
+          "--series",
+          "1"
+        ],
+        "metadata": {
+          "name": "Teno7-60RD-SVF.czi - Scene #2",
+          "width": 22345,
+          "height": 20548,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": false,
+          "pixelType": "UINT16",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 22345,
+              "height": 20548
+            },
+            {
+              "downsample": 2.0,
+              "width": 11172,
+              "height": 10274
+            },
+            {
+              "downsample": 4.0,
+              "width": 5586,
+              "height": 5137
+            },
+            {
+              "downsample": 8.0,
+              "width": 2793,
+              "height": 2568
+            },
+            {
+              "downsample": 16.0,
+              "width": 1396,
+              "height": 1284
+            },
+            {
+              "downsample": 32.0,
+              "width": 698,
+              "height": 642
+            }
+          ],
+          "channels": [
+            {
+              "name": "385",
+              "color": -16776961
+            },
+            {
+              "name": "475",
+              "color": -16711845
+            },
+            {
+              "name": "590",
+              "color": -63232
+            },
+            {
+              "name": "630",
+              "color": -6750004
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 4,
+      "randomizedName": "631e3d13-e3a7-499d-8ff1-aa3274b4b769",
+      "imageName": "Teno7-60RD-SVF.czi - Scene #2",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/59RD-PAS.czi",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "59RD-PAS.czi - Scene #1",
+          "width": 27568,
+          "height": 30350,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 27568,
+              "height": 30350
+            },
+            {
+              "downsample": 2.0,
+              "width": 13784,
+              "height": 15175
+            },
+            {
+              "downsample": 4.0,
+              "width": 6892,
+              "height": 7587
+            },
+            {
+              "downsample": 8.0,
+              "width": 3446,
+              "height": 3793
+            },
+            {
+              "downsample": 16.0,
+              "width": 1723,
+              "height": 1896
+            },
+            {
+              "downsample": 32.0,
+              "width": 861,
+              "height": 948
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 5,
+      "randomizedName": "6a3ad51e-df4a-43f8-96b4-56a938dea56b",
+      "imageName": "59RD-PAS.czi - Scene #1",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/59RD-PAS.czi",
+        "args": [
+          "--series",
+          "1"
+        ]
+      },
+      "entryID": 6,
+      "randomizedName": "a3abd09f-a8d6-451d-bd92-8083f6fbd8a4",
+      "imageName": "59RD-PAS.czi - Scene #2",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230614_Philippe/Teno7-59RD-SVF.czi",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "Teno7-59RD-SVF.czi - Scene #1",
+          "width": 24297,
+          "height": 24147,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": false,
+          "pixelType": "UINT16",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 24297,
+              "height": 24147
+            },
+            {
+              "downsample": 2.0,
+              "width": 12148,
+              "height": 12073
+            },
+            {
+              "downsample": 4.0,
+              "width": 6074,
+              "height": 6036
+            },
+            {
+              "downsample": 8.0,
+              "width": 3037,
+              "height": 3018
+            },
+            {
+              "downsample": 16.0,
+              "width": 1518,
+              "height": 1509
+            },
+            {
+              "downsample": 32.0,
+              "width": 759,
+              "height": 754
+            }
+          ],
+          "channels": [
+            {
+              "name": "385",
+              "color": -16776961
+            },
+            {
+              "name": "475",
+              "color": -16711845
+            },
+            {
+              "name": "590",
+              "color": -63232
+            },
+            {
+              "name": "630",
+              "color": -6750004
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 7,
+      "randomizedName": "90f0aab4-af77-4aaf-9aa6-043b66b13669",
+      "imageName": "Teno7-59RD-SVF.czi - Scene #1",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230614_Philippe/Teno7-59RD-SVF.czi",
+        "args": [
+          "--series",
+          "1"
+        ],
+        "metadata": {
+          "name": "Teno7-59RD-SVF.czi - Scene #2",
+          "width": 26046,
+          "height": 18670,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": false,
+          "pixelType": "UINT16",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 26046,
+              "height": 18670
+            },
+            {
+              "downsample": 2.0,
+              "width": 13023,
+              "height": 9335
+            },
+            {
+              "downsample": 4.0,
+              "width": 6511,
+              "height": 4667
+            },
+            {
+              "downsample": 8.0,
+              "width": 3255,
+              "height": 2333
+            },
+            {
+              "downsample": 16.0,
+              "width": 1627,
+              "height": 1166
+            },
+            {
+              "downsample": 32.0,
+              "width": 813,
+              "height": 583
+            }
+          ],
+          "channels": [
+            {
+              "name": "385",
+              "color": -16776961
+            },
+            {
+              "name": "475",
+              "color": -16711845
+            },
+            {
+              "name": "590",
+              "color": -63232
+            },
+            {
+              "name": "630",
+              "color": -6750004
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 8,
+      "randomizedName": "dec9567a-c714-4698-9cf8-254ab4ddcd69",
+      "imageName": "Teno7-59RD-SVF.czi - Scene #2",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/58RD-PAS.czi",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 9,
+      "randomizedName": "1cacd8fd-77f9-417e-a445-37dfabd6199b",
+      "imageName": "58RD-PAS.czi - Scene #1",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/58RD-PAS.czi",
+        "args": [
+          "--series",
+          "1"
+        ]
+      },
+      "entryID": 10,
+      "randomizedName": "6b327cd5-6c45-4456-8649-3cac50cea972",
+      "imageName": "58RD-PAS.czi - Scene #2",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/58RD-PAS.czi",
+        "args": [
+          "--series",
+          "2"
+        ]
+      },
+      "entryID": 11,
+      "randomizedName": "c5fbba6e-1074-4db0-98ce-7156083980ea",
+      "imageName": "58RD-PAS.czi - Scene #3",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/58RD-PAS.czi",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "58RD-PAS.czi - Scene #1",
+          "width": 23235,
+          "height": 23876,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 23235,
+              "height": 23876
+            },
+            {
+              "downsample": 2.0,
+              "width": 11617,
+              "height": 11938
+            },
+            {
+              "downsample": 4.0,
+              "width": 5808,
+              "height": 5969
+            },
+            {
+              "downsample": 8.0,
+              "width": 2904,
+              "height": 2984
+            },
+            {
+              "downsample": 16.0,
+              "width": 1452,
+              "height": 1492
+            },
+            {
+              "downsample": 32.0,
+              "width": 726,
+              "height": 746
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 12,
+      "randomizedName": "d2dce442-664d-47e2-bd03-2ea282df7716",
+      "imageName": "58RD-PAS.czi - Scene #1",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/58RD-PAS.czi",
+        "args": [
+          "--series",
+          "1"
+        ]
+      },
+      "entryID": 13,
+      "randomizedName": "de122764-c25f-40f3-ab43-c12c767f9c73",
+      "imageName": "58RD-PAS.czi - Scene #2",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/58RD-PAS.czi",
+        "args": [
+          "--series",
+          "2"
+        ]
+      },
+      "entryID": 14,
+      "randomizedName": "c29896e3-89f1-48cd-adfa-19de4929a351",
+      "imageName": "58RD-PAS.czi - Scene #3",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230614_Philippe/Teno7-58RD-SVF.czi",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "Teno7-58RD-SVF.czi - Scene #1",
+          "width": 22350,
+          "height": 18715,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": false,
+          "pixelType": "UINT16",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 22350,
+              "height": 18715
+            },
+            {
+              "downsample": 2.0,
+              "width": 11175,
+              "height": 9357
+            },
+            {
+              "downsample": 4.0,
+              "width": 5587,
+              "height": 4678
+            },
+            {
+              "downsample": 8.0,
+              "width": 2793,
+              "height": 2339
+            },
+            {
+              "downsample": 16.0,
+              "width": 1396,
+              "height": 1169
+            },
+            {
+              "downsample": 32.0,
+              "width": 698,
+              "height": 584
+            }
+          ],
+          "channels": [
+            {
+              "name": "385",
+              "color": -16776961
+            },
+            {
+              "name": "475",
+              "color": -16711845
+            },
+            {
+              "name": "590",
+              "color": -63232
+            },
+            {
+              "name": "630",
+              "color": -6750004
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 15,
+      "randomizedName": "6d0ccb98-3644-41da-b771-f6f185a97d72",
+      "imageName": "Teno7-58RD-SVF.czi - Scene #1",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230614_Philippe/Teno7-58RD-SVF.czi",
+        "args": [
+          "--series",
+          "1"
+        ],
+        "metadata": {
+          "name": "Teno7-58RD-SVF.czi - Scene #2",
+          "width": 20603,
+          "height": 20508,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": false,
+          "pixelType": "UINT16",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 20603,
+              "height": 20508
+            },
+            {
+              "downsample": 2.0,
+              "width": 10301,
+              "height": 10254
+            },
+            {
+              "downsample": 4.0,
+              "width": 5150,
+              "height": 5127
+            },
+            {
+              "downsample": 8.0,
+              "width": 2575,
+              "height": 2563
+            },
+            {
+              "downsample": 16.0,
+              "width": 1287,
+              "height": 1281
+            },
+            {
+              "downsample": 32.0,
+              "width": 643,
+              "height": 640
+            }
+          ],
+          "channels": [
+            {
+              "name": "385",
+              "color": -16776961
+            },
+            {
+              "name": "475",
+              "color": -16711845
+            },
+            {
+              "name": "590",
+              "color": -63232
+            },
+            {
+              "name": "630",
+              "color": -6750004
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 16,
+      "randomizedName": "180d27b7-abe5-40e6-8cd9-d9b8b73c23d0",
+      "imageName": "Teno7-58RD-SVF.czi - Scene #2",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/57RD-PAS.czi",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 19,
+      "randomizedName": "56a0a081-db77-4425-a1f5-f7ae1c6d86db",
+      "imageName": "57RD-PAS.czi - Scene #1",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/57RD-PAS.czi",
+        "args": [
+          "--series",
+          "1"
+        ],
+        "metadata": {
+          "name": "57RD-PAS.czi - Scene #2",
+          "width": 26098,
+          "height": 30338,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 26098,
+              "height": 30338
+            },
+            {
+              "downsample": 2.0,
+              "width": 13049,
+              "height": 15169
+            },
+            {
+              "downsample": 4.0,
+              "width": 6524,
+              "height": 7584
+            },
+            {
+              "downsample": 8.0,
+              "width": 3262,
+              "height": 3792
+            },
+            {
+              "downsample": 16.0,
+              "width": 1631,
+              "height": 1896
+            },
+            {
+              "downsample": 32.0,
+              "width": 815,
+              "height": 948
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 20,
+      "randomizedName": "b253a516-a7a7-465b-b25c-68f6c1f49248",
+      "imageName": "57RD-PAS.czi - Scene #2",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230620_Chlo%C3%A9_Philippe/57RD-PAS.czi",
+        "args": [
+          "--series",
+          "2"
+        ],
+        "metadata": {
+          "name": "57RD-PAS.czi - Scene #3",
+          "width": 24664,
+          "height": 32504,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 24664,
+              "height": 32504
+            },
+            {
+              "downsample": 2.0,
+              "width": 12332,
+              "height": 16252
+            },
+            {
+              "downsample": 4.0,
+              "width": 6166,
+              "height": 8126
+            },
+            {
+              "downsample": 8.0,
+              "width": 3083,
+              "height": 4063
+            },
+            {
+              "downsample": 16.0,
+              "width": 1541,
+              "height": 2031
+            },
+            {
+              "downsample": 32.0,
+              "width": 770,
+              "height": 1015
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.21941744667906707,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 21,
+      "randomizedName": "e108f0da-923b-4518-bdea-8bcd7d4dd262",
+      "imageName": "57RD-PAS.czi - Scene #3",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230614_Philippe/Teno7-57RD-SVF.czi",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "Teno7-57RD-SVF.czi - Scene #1",
+          "width": 18684,
+          "height": 22374,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": false,
+          "pixelType": "UINT16",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 18684,
+              "height": 22374
+            },
+            {
+              "downsample": 2.0,
+              "width": 9342,
+              "height": 11187
+            },
+            {
+              "downsample": 4.0,
+              "width": 4671,
+              "height": 5593
+            },
+            {
+              "downsample": 8.0,
+              "width": 2335,
+              "height": 2796
+            },
+            {
+              "downsample": 16.0,
+              "width": 1167,
+              "height": 1398
+            },
+            {
+              "downsample": 32.0,
+              "width": 583,
+              "height": 699
+            }
+          ],
+          "channels": [
+            {
+              "name": "385",
+              "color": -16776961
+            },
+            {
+              "name": "475",
+              "color": -16711845
+            },
+            {
+              "name": "590",
+              "color": -63232
+            },
+            {
+              "name": "630",
+              "color": -6750004
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 26,
+      "randomizedName": "677d83c3-4d2d-4430-8aa9-6a02b62c0ad3",
+      "imageName": "Teno7-57RD-SVF.czi - Scene #1",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/HSF%20MIA/PAS%20IF%20IA/230614_Philippe/Teno7-57RD-SVF.czi",
+        "args": [
+          "--series",
+          "1"
+        ],
+        "metadata": {
+          "name": "Teno7-57RD-SVF.czi - Scene #2",
+          "width": 18733,
+          "height": 27826,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": false,
+          "pixelType": "UINT16",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 18733,
+              "height": 27826
+            },
+            {
+              "downsample": 2.0,
+              "width": 9366,
+              "height": 13913
+            },
+            {
+              "downsample": 4.0,
+              "width": 4683,
+              "height": 6956
+            },
+            {
+              "downsample": 8.0,
+              "width": 2341,
+              "height": 3478
+            },
+            {
+              "downsample": 16.0,
+              "width": 1170,
+              "height": 1739
+            },
+            {
+              "downsample": 32.0,
+              "width": 585,
+              "height": 869
+            }
+          ],
+          "channels": [
+            {
+              "name": "385",
+              "color": -16776961
+            },
+            {
+              "name": "475",
+              "color": -16711845
+            },
+            {
+              "name": "590",
+              "color": -63232
+            },
+            {
+              "name": "630",
+              "color": -6750004
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.325,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 20.0,
+          "preferredTileWidth": 1024,
+          "preferredTileHeight": 1024
+        }
+      },
+      "entryID": 27,
+      "randomizedName": "316269fd-30bc-4154-b686-c24c702c686d",
+      "imageName": "Teno7-57RD-SVF.czi - Scene #2",
+      "metadata": {}
+    }
+  ]
+}
